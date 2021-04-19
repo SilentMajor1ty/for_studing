@@ -12,8 +12,8 @@
         <title>TA Start</title>
     </head>
     <body>
-        <h1>My TA labs</h1>
-        <p>This is a landing page</p>
+        <h1>Lab assignments by Serhii Sokolov</h1>
+        <p>This is a landing page:</p>
         
         <div>
             <form action="lab1.jsp">           
