@@ -5,15 +5,22 @@
  */
 package knu.fit.ist.ta.lab2;
 
+import java.text.DecimalFormat;
+import org.springframework.stereotype.Service;
+
 /**
  *
  * @author sereg
  */
+@Service
 public class Lab2View {
+    DecimalFormat df = new DecimalFormat("###.##");
     
     public String showResult(String xString){
+        if(xString.equals("")){return "Please enter x";}
         Float x = Float.parseFloat(xString);
-        return Calculate.lab2equation(x).toString();
+        if(x<0){return "Wrong x. x must be greater than zero";}
+        else {return df.format(Calculate.lab2equation(x));}
         
     }
 }

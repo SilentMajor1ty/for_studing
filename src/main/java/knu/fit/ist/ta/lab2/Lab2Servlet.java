@@ -11,6 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  *
@@ -18,6 +19,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet(name = "Lab2Servlet", urlPatterns = {"/lab2"})
 public class Lab2Servlet extends HttpServlet {
+    
+    /*@Autowired
+    Lab2View lab2view;*/
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -57,6 +61,10 @@ public class Lab2Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
+        Lab2View lab2view = new Lab2View();
+        
+        String result =lab2view.showResult(request.getParameter("x"));
+        request.setAttribute("result", result);
         request.getRequestDispatcher("lab2.jsp").forward(request, response);
     }
 
