@@ -12,7 +12,21 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>This is my lab3!</h1>
+        "Fill the array with natural numbers.Find the position of max number before zero"</h2>
+        
+        
+        <p><%=request.getAttribute("print")%></p>
+        
+        <p>The index of max number is: <%=request.getAttribute("func")%></p>
+        
+         <div>
+            <form action="lab3form.jsp">  
+                <input type="submit" value="New array">
+            </form> 
+        </div>
+        
+        <p><a href="index.jsp">Home</a></p>
         
     </body>
 </html>

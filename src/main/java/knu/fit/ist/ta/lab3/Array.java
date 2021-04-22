@@ -3,29 +3,47 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab3;
+package knu.fit.ist.ta.lab3;
 
+import java.util.Random;
+import org.springframework.stereotype.Service;
 /**
  *
  * @author sereg
  */
-import java.util.Random;
-import org.springframework.stereotype.Service;
+
 @Service
 public class Array {
-    Random random = new Random();
+    Random rand = new Random();
     public int[] arrayInit(int arrayLength, int arrayMax) {
-
         int[] result = new int[arrayLength];
 
         for (int j = 0; j < arrayLength; j++) {
-            result[j] = random.nextInt(arrayMax + 1);
+            result[j] = rand.nextInt(arrayMax + 1);
         }
 
         return result;
     }
     
-    public String arrayPrint(int[] intArray) {
+     public String func(int[] array)
+     {
+        int max_index = 0;
+        int max_numb = 0;
+        for (int j = 0; j < array.length; j++) 
+        {
+            if (array[j] > max_numb)
+            {
+               max_numb = array[j];
+               max_index = j;
+            }
+            else if (array[j] == 0){return "" + max_index;}
+            
+        }
+        return "there is no zero number"; 
+     }
+        
+    
+    public String print(int[] intArray) {
         String result = "{";
 
         for (int i : intArray) {
@@ -35,21 +53,7 @@ public class Array {
         result += "}";
         return result;
     }
-    
-    public int[] arrayRange(int n){
-        int[] result = new int[n];
-        for (int j = 0; j <n; j++) {
-            result[j]=j+1;
-        }
-        return result;
-    }
-     public String arrayString(int n){
-    String result="";
-        for (int j = 1; j <= n; j++) {
-            result+=j*j;
-        }
-    return result;
-     }
+     
 }
 
     

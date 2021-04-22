@@ -18,19 +18,28 @@
         <div>
             <form action="lab1.jsp">           
             
-                <input type="submit" value="Lab1">
+                <input type="submit" value="lab1">
             </form>
         </div>
         <p> </p>
         <div>
             <form action="lab2form.jsp">           
             
-                <input type="submit" value="Lab2">
+                <input type="submit" value="lab2">
+            </form>
+        </div>
+        <p></p>
+        <div>
+            <form action="lab3form.jsp">           
+            
+                <input type="submit" value="lab3">
             </form>
         </div>
         
         
-        <p><a href="lab1.jsp">Alternative variant</a></p>
+        <p><a href="lab1.jsp">Another option to go to Lab1 page</a></p>
+        <p><a href="lab2form.jsp">Another option to go to Lab2 page</a></p>
+        <p><a href="lab3form.jsp">Another option to go to Lab3 page</a></p>
 
 
     </body>
