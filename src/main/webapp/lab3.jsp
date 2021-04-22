@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>This is my lab3!</h1>
-        "Fill the array with natural numbers.Find the position of max number before zero"</h2>
+        "Fill the array with natural numbers.Find the position of max number before zero."</h2>
         
         
         <p><%=request.getAttribute("print")%></p>

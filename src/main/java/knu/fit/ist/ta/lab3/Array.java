@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
  * @author sereg
  */
 
+
 @Service
 public class Array {
     Random rand = new Random();

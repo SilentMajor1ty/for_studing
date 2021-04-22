@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Enter the length of your array</h1>
+        <h1>Enter the length of your array: </h1>
         
         <div>
             <form method="post" action="./lab3">
