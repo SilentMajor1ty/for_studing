@@ -42,10 +42,30 @@
                 <input type="submit" value="lab4">
             </form>
         </div>
+        <p><div>
+            <form action="lab5form.jsp">           
+            
+                <input type="submit" value="lab5">
+            </form>
+        </div></p>
         
+        <p><div>
+            <form action="lab6-7form.jsp">           
+            
+                <input type="submit" value="lab6-7">
+            </form>
+        </div></p>
+        
+        <p><div>
+            <form action="lab8.jsp">           
+            
+                <input type="submit" value="lab8">
+            </form>
+        </div></p>
         
         <p><a href="lab1.jsp">Another option to go to Lab1 page</a></p>
         
+      
 
 
     </body>
