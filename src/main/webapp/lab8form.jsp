@@ -15,7 +15,7 @@
         
          <div>
             <form action="./lab8" method="post">
-                <h2 style="color:#2246B1">Array: {125, 2354, 35, 456 , 1, 1, 3, 45, 0, 456, 0}</h2>
+                <h2 style="color:#2246B1">Array: {0, 4, 6, 9, 11, 4, 6, 9, 11, 4, 6, 9, 11, 4, 6, 9, 11, 7, 8, 78, 82, 93, 100, 11}</h2>
                 <h3>Enter the number you want to find:</h3>
                  
                 <input type="text" name="number" placeholder="like 10"/>
