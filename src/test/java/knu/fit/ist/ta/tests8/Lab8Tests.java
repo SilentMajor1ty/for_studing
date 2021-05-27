@@ -18,6 +18,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class Lab8Tests {
     Search sea = new Search();
     
+    
     int[] first = {0, 1, 2, 3, 4, 5, 6, 7, 8};
     int[] second = {0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3};
     @Test 
@@ -49,6 +50,7 @@ public class Lab8Tests {
             assertEquals(String.valueOf(sea.linearSearch(first, 0)), "0");
             assertEquals(String.valueOf(sea.jumpSearch(first, 10)), "-1");
             assertEquals(String.valueOf(sea.binarySearch(first, 'q')), "-1");
+            assertEquals(String.valueOf(sea.binarySearch(first, ' ')), "-1");
             
             
         }        

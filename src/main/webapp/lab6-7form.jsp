@@ -12,23 +12,23 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h2>Complete the task using recursion and build a binary tree</h2>
+        <h1>Complete the task using recursion and build a binary tree</h1>
                 
 
         
         <div>
             <form method="post" action="lab6-7">
-                <h1>Lab6</h1>
+                <h2>Lab6</h2>
                 
-                <h1>Enter an integer number</h1>
+                <h3>Enter an integer number</h3>
                 <input type="text" name="l6n" placeholder="like 2222222"/>
                 
-                <h1>Lab7</h1>
-                <h3>Numbers for a binary tree: [7, 1, 5, 3, 10, 2, 8, 9]</h3>
+                <h2>Lab7</h2>
+                <h2>Numbers for a binary tree: [7, 1, 5, 3, 10, 2, 8, 9]</h2>
 
-                <h1>Enter the Number1 for tree search</h1>
+                <h2>Enter the Number1 for tree search</h2>
                 <input type="text" name="n1" placeholder="number"/>
-                <h1>Enter the Number2 for tree search</h1>
+                <h2>Enter the Number2 for tree search</h2>
                 <input type="text" name="n2" placeholder="number"/>
                 <p> <p>
                 <input type="submit" value="ok"/>

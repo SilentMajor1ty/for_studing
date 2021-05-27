@@ -42,7 +42,6 @@ public class Regression {
     }
     
     public static int numberOf2s(int count,int n) {
-        
 	if (n >= 1) 
         {
             if(n%10==2) 

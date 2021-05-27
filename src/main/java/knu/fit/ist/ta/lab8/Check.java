@@ -3,23 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package knu.fit.ist.ta.lab67;
+package knu.fit.ist.ta.lab8;
 
 /**
  *
  * @author sereg
  */
-
 public class Check {
-    public String showResult(String n){
-        if(n.equals("")){return "Please enter a number";}
+    public String showFinal(String n){
+        if(n.equals("")){return "" + 0;}
         if(n.matches("[-+]?\\d+"))
         {
-        int x = Math.abs(Integer.parseInt(n));
-        return "" + Regression.numberOf2s(0, x);
+        return "" + Integer.parseInt(n);
         }
         else{
-            return "It must be a number";
+            return ""+0;
         }
         
     }

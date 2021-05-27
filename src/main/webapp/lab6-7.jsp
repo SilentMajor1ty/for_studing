@@ -14,16 +14,16 @@
     <body>
         <h1>Complete the task using recursion and build a binary tree</h1>
         
-        <h1>Lab6</h1>
+        <h2>Lab6</h2>
         
         
-        <h1>Amount of 2s in <%=request.getAttribute("l6n")%> number:</h1>
+        <h2>Amount of number (2) in <%=request.getAttribute("l6n")%> number:</h2>
         <h2><%=request.getAttribute("lab6")%></h2>
         
-        <h1>Lab7</h1>
+        <h2>Lab7</h2>
         <h2>[7, 1, 5, 3, 10, 2, 8, 9]</h2>
         
-        <h1> the order of adding numbers to the tree</h1>
+        <h2>Order of adding numbers to the tree</h2>
         <h2><%=request.getAttribute("lab7ind")%></h2>
 
         

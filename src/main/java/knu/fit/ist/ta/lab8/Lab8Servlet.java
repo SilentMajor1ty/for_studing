@@ -72,8 +72,11 @@ public class Lab8Servlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int number = Integer.parseInt(request.getParameter("number")); 
-       request.setAttribute("number", number);
+        Check show = new Check();
+        int lab8 =  Integer.parseInt(show.showFinal(request.getParameter("number")));
+        
+       request.setAttribute("lab8", lab8);
+       
        request.getRequestDispatcher("lab8.jsp").forward(request, response);
     }
 

@@ -16,7 +16,7 @@
         <h1>The problem solved via jumpSearch, linearSearch, binarySearch</h1>
                 <%! int[] arr= {0, 4, 6, 9, 11, 4, 6, 9, 11, 4, 6, 9, 11, 4, 6, 9, 11, 7, 8, 78, 82, 93, 100, 11}; %>
                 <%! Search alg = new Search();%>
-                <%int number = (int)request.getAttribute("number"); %>
+                <%int number = (int)request.getAttribute("lab8"); %>
                 <h3 style="color:#2246B1">Array: <%=Arrays.toString(arr)%></h3>
            
                 <%
