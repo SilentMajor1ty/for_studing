@@ -46,7 +46,7 @@
         <h2><%=request.getAttribute("lab7lev")%></h2>
         
         <div>
-            <form action="FormForLab6-7.jsp">  
+            <form action="lab6-7form.jsp">  
                 <input type="submit" value="Once again">
             </form> 
         </div>

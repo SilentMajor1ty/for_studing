@@ -57,7 +57,7 @@
         </div></p>
         
         <p><div>
-            <form action="lab8.jsp">           
+            <form action="lab8form.jsp">           
             
                 <input type="submit" value="lab8">
             </form>
