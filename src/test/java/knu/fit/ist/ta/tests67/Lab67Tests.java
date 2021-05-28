@@ -39,8 +39,7 @@ public class Lab67Tests {
             
             assertEquals("0",ch.showResult(""+15));
             assertEquals("2",ch.showResult(""+ 223));
-            assertEquals("Please enter a number",ch.showResult(""));
-            assertEquals("Number must be greater than zero",ch.showResult("" + -1));
+            assertEquals("Please enter a number",ch.showResult(""));       
             assertEquals("3",ch.showResult(""+ 160002122));
             
             assertEquals(false,tr.containsNode(15));
