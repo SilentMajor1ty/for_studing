@@ -56,10 +56,18 @@
             </form>
         </div></p>
         
+        
         <p><div>
             <form action="lab8form.jsp">           
             
                 <input type="submit" value="lab8">
+            </form>
+        </div></p>
+        
+        <p><div>
+            <form action="exam.jsp">           
+            
+                <input type="submit" value="exam">
             </form>
         </div></p>
         
